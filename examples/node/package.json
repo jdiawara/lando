@@ -19,6 +19,6 @@
   "author": "Mike Pirog",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.16.2"
   }
 }
