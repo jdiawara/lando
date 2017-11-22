@@ -64,7 +64,7 @@
     "yargs-parser": "^4.2.1"
   },
   "devDependencies": {
-    "bats": "git+https://github.com/sstephenson/bats.git#master",
+    "bats": "0.4.2",
     "chai": "^3.5.0",
     "gitbook-cli": "^2.3.0",
     "grunt": "^0.4.5",
