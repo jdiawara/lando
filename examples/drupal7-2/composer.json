@@ -17,7 +17,7 @@
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
     "composer/installers": "~1.0",
-    "cweagans/composer-patches": "~1.0",
+    "cweagans/composer-patches": "1.6.2",
     "derhasi/composer-preserve-paths": "0.1.*",
     "drush/drush": "~8.0",
     "drupal/drupal": "7.*",
