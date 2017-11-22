@@ -1,0 +1,151 @@
+collectors:
+
+- type: js-npm
+  path: examples/redis
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: php-composer
+  path: examples/lando-and-ci
+  actors:
+  # pull requests for updates to our major version
+  - type: php-composer
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: php-composer
+  path: examples/trivial-tooling
+  actors:
+  # pull requests for updates to our major version
+  - type: php-composer
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: examples/trivial-tooling
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: php-composer
+  path: examples/drupal7-2
+  actors:
+  # pull requests for updates to our major version
+  - type: php-composer
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: examples/memcached
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: examples/solr
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: php-composer
+  path: examples/drupal8
+  actors:
+  # pull requests for updates to our major version
+  - type: php-composer
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: php-composer
+  path: examples/started
+  actors:
+  # pull requests for updates to our major version
+  - type: php-composer
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: examples/node
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: examples/mongo
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: examples/mean
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: examples/elasticsearch
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: php-composer
+  path: examples/wordpress
+  actors:
+  # pull requests for updates to our major version
+  - type: php-composer
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
+
+- type: js-npm
+  path: /
+  actors:
+  # pull requests for updates to our major version
+  - type: js-npm
+    versions: "L.Y.Y"
+  # create issues for new major versions
+  - type: repo-issue
+    versions: "Y.0.0"
