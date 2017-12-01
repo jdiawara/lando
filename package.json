@@ -50,7 +50,7 @@
     "jsonfile": "^2.4.0",
     "kalabox-stats-client": "^0.2.1",
     "localtunnel": "^1.8.3",
-    "lodash": "^4.15.0",
+    "lodash": "3.10.1",
     "node-cache": "^4.1.1",
     "object-hash": "^1.1.8",
     "restler": "^3.4.0",
